@@ -5,7 +5,6 @@ body {
 }
 
 .header {
-    position: fixed;
     top: 0;
     width: 100%;
     background-color: #266dd6;
@@ -25,4 +24,72 @@ body {
 
 .navbar a:hover{
     color: #ffe602;
+}
+
+/* ESTILOS FORMULARIO REGISTRO */
+
+h1{
+  
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario{
+  width: 100%;
+}
+
+.formulario input{
+    border-radius: 100%;
+}
+input{
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+}
+label{
+    color: #ffffff;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.error {
+  color: red;
+}
+
+.btn button{
+    border: none;
+    border-radius: 50px;
+    width: 130px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.btn{
+    text-align: center;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
 }

@@ -24,11 +24,59 @@
             <a href="opiniones.html">Opiniones</a>
             <a href="faq.html">FAQ</a>
         </nav>
-
     </header>
+    <main class="container">
+        <div class="form">
+            <form class="fomulario">
+                <h1>REGISTRO</h1>
+                <br>
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="first_name" id="nombre" class="txt" placeholder="Erik"> 
+                    <span id="errorNombre" class="error"></span>
+                </div>
+                <br>
+                <div>
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" name="last_name" id="apellido" class="txt" placeholder="Satie">
+                    <span id="errorApellido" class="error"></span>
+                </div>
+                <br>
+                <div>
+                    <label for="rut">RUT: </label>
+                    <input type="text" name="rut" id="rut" class="txt" placeholder="EJ: 12345678-9">
+                    <span id="errorRut" class="error"></span>
+                </div>
+                <br>
+                <div>
+                    <label for="mail">Email: </label>
+                    <input type="email" name="email" id="mail" class="txt" placeholder="correo@correo.com">
+                    <span id="errorMail" class="error"></span>
+                </div>
+                <br>
+                <div>
+                    <label for="contraseña">Contraseña: </label>
+                    <input type="password" name="password" id="contraseña" class="pwd">
+                    <span id="errorContraseña" class="error"></span>
+                </div>
+                <br>
+                <div>
+                    <label for="confirmContraseña">Confirmar Contraseña: </label>
+                    <input type="password" name="password_confirm" id="confirmContraseña" class="pwd" placeholder="Repita su contraseña">
+                    <span id="errorContraseña2" class="error"></span>
+                </div>
+                <br>
+                <div class="btn">
+                    <button id="enviar" name="opcion" onclick=" return enviarFormulario() ">Enviar datos</button>
+                </div>
+                <br>
+                ¿Ya tienes cuenta? <a href="InicioSesion.html">click aqui</a>
+            </form>
+        </div>
+    </main>
 
 
     
-
+    <script src="assets/js/JSregistro.js"></script>
 </body>
 </html>

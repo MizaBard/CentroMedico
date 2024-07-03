@@ -24,8 +24,32 @@
             <a href="opiniones.html">Opiniones</a>
             <a href="faq.html">FAQ</a>
         </nav>
-
     </header>
-
+    <main class="container">
+        <div class="form">
+            <form class="fomulario">
+                <h1>REGISTRO</h1>
+                <br>
+                <div>
+                    <label for="rut">RUT: </label>
+                    <input type="text" name="rut" id="rut" class="txt" placeholder="EJ: 12345678-9">
+                    <span id="errorRut" class="error"></span>
+                </div>
+                <br>
+                <div>
+                    <label for="contraseña">Contraseña: </label>
+                    <input type="password" name="password" id="contraseña" class="pwd">
+                    <span id="errorContraseña" class="error"></span>
+                </div>
+                <br>
+                <div class="btn">
+                    <button id="enviar" name="opcion" onclick=" return enviarFormulario() ">Enviar datos</button>
+                </div>
+                <br>
+                ¿No tienes cuenta? <a href="registro.html">click aqui</a>
+            </form>
+        </div>
+    </main>
+    <script src="assets/js/JSingreso.js"></script>
 </body>
 </html>
