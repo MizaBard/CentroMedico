@@ -157,3 +157,56 @@ button:hover{
 .btn2{
   text-align: center;
 }
+
+.comentarios{
+  margin-top: 100px;
+}
+
+.comentarios h1{
+  color: black;
+  text-align: center;
+}
+
+.comentarios form{
+  text-align: center;
+}
+
+.comentarios-realizados{
+  display: flex;
+  width: 100%;
+}
+.comentario-n{
+  width: 30%;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.portada{
+  background-image: url(portada2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.txt-noticias{
+  display: flex;
+  color: #ffffff;
+  background-color: cornflowerblue;
+  margin-top: 50px;
+  width: 25%;
+  margin-left: 150px;
+  border-radius: 10px;
+}
+
+.txt-noticias h1{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.imagen{
+  transform: translateX(400px);
+}
